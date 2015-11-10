@@ -1,0 +1,29 @@
+1201: 养兔子
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 203  Solved: 49
+[Submit][Status][Web Board]
+Description
+
+一只成熟的兔子每天能产下一胎兔子。每只小兔子的成熟期是一天。 某人领养了一只小兔子，请问第N天以后，他将会得到多少只兔子。
+Input
+
+测试数据包括多组，每组一行，为整数n(1≤n≤90)。 输入以0结束。
+Output
+
+对应输出第n天有几只兔子(假设没有兔子死亡现象)。
+Sample Input
+1 2 0
+Sample Output
+1 2
+HINT
+
+数据类型可以用64位整数:long long
+
+输入输出格式中都使用%lld
+
+Source
+
+2007年 浙江工商大学计算机与信息工程学院 C语言程序设计竞赛
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	

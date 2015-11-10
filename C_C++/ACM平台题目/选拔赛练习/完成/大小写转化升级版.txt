@@ -1,0 +1,35 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem O: 大小写转化升级版
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 123  Solved: 52
+[Submit][Status][Web Board]
+Description
+
+把给定的英文文章各段中，奇数位的英文字母转换为大写，偶数位的英文字母转换为小写
+注意，奇偶计数按整篇文章计算，回车不计入内。
+Input
+
+首先输入一个cas，表示测试数据的组数，接着cas行，每行一段字符，其中不仅包含了英文字母，可能还包含了其它字符，可以一行一行的处理数据使用gets（char* c);
+
+Output
+
+对于每组测试数据，首先输出一个"Case #: ",没有双引号，#表示第几组测试结果，接着输出转换后的英文文章。
+Sample Input
+
+3
+sbHH && 12H
+sd
+4f7
+Sample Output
+
+Case 1: SbHh && 12H
+Case 2: sD
+Case 3: 4F7
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

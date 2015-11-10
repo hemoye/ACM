@@ -1,0 +1,57 @@
+主页 	讨论版 	问题 	名次 	状态 	统计
+问题 C: 帮阿丢找数字2
+时间限制: 1 Sec  内存限制: 128 MB
+提交: 15  解决: 5
+[提交][状态][讨论版]
+题目描述
+
+和之前的题目意思相同，只不过这次阿丢把每个字符串中相邻的数字字符作为一个数字输出来，
+
+比如我输入的是：sakdfh23432ksdhfkh34ksjdf3535kj9skf0sdf
+
+ 则我输出的数字是：23432 34 3535 9 0
+
+有一点出题的学长没有说明：注意前导0的情况！-----尕小豪
+
+000123  得出的是 123 而不是 000123
+
+输入
+
+同样输入有多组，每行输入一个字符串，以EOF结束
+
+sakdfh23432ksdhfkh34ksjdf3535kj9skf0sdf
+
+124kjkaf3k25kjdafk
+
+sdkfh234khksdf234khhsdfh4h4k23hk6kh02
+
+输出
+
+注意格式:每两个数之间有空格，第一个数之前和最后个数之后没有空格，若一个数字都没有，则空一行
+
+Case #1:
+
+23432 34 3535 9 0
+
+Case #2:
+
+124 3 25
+
+Case #3:
+
+234 234 4 4 34 6 2
+
+样例输入
+sakdfh23432ksdhfkh34ksjdf3535kj9skf0sdf 124kjkaf3k25kjdafk sdkfh234khksdf234khhsdfh4h4k23hk6kh02
+样例输出
+Case #1: 23432 34 3535 9 0 
+Case #2: 124 3 25 
+Case #3: 234 234 4 4 23 6 2
+提示
+
+[提交][状态][讨论版]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

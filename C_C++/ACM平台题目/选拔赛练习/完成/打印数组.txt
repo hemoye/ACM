@@ -1,0 +1,44 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem F: 打印数组
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 398  Solved: 80
+[Submit][Status][Web Board]
+Description
+
+下面的程序从键盘接收任意6个数放入数组A中，假设这6个数为：8 1 4 2 5 6 ，
+则要输出一个具有如下内容的方阵。
+8 1 4 2 5 6
+6 8 1 4 2 5 
+5 6 8 1 4 2 
+2 5 6 8 1 4
+4 2 5 6 8 1
+1 4 2 5 6 8
+Input
+
+数组组数
+数组中各元素
+Output
+
+处理后的数组
+“Case N:”这里没有空格
+Sample Input
+
+1
+8 1 4 2 5 6
+Sample Output
+
+Case 1:
+8 1 4 2 5 6 
+6 8 1 4 2 5 
+5 6 8 1 4 2 
+2 5 6 8 1 4 
+4 2 5 6 8 1 
+1 4 2 5 6 8 
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

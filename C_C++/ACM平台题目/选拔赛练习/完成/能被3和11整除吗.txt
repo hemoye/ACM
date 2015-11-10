@@ -1,0 +1,31 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem I: 能被3和11整除吗
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 217  Solved: 8
+[Submit][Status][Web Board]
+Description
+
+读入一个整数，判断该数能否被3和11整数。注意该数可能很大，它的范围为[0,10^200]。
+Input
+
+有多组测试数据。输入的第一行是整数T（0<T<=200），表示测试数据的组数。每一组测试数据只有一行，即为要判断的整数。该行没有其它多余的符号。
+Output
+
+对应每组输入，首先输出一个“Case #: ”，#表示第几组测试结果，输出一行判断的结果，第一个单词（”yes”或”no”）表示该数能否被3整除，第二个单词（”yes”或”no”）表示该数能否被11整除，两个字符串之间用一个空格隔开。该行不能有其它多余的符号。
+Sample Input
+
+2
+2896
+27824277658778257401
+Sample Output
+
+Case 1: no no
+Case 2: yes no
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

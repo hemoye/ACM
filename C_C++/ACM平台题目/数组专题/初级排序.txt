@@ -1,0 +1,28 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem L: C语言程序设计教程（第三版）课后习题10.1
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 224  Solved: 167
+[Submit][Status][Web Board]
+Description
+
+输入三个整数，按由小到大的顺序输出。
+Input
+
+三个整数
+Output
+
+由小到大输出成一行，每个数字后面跟一个空格
+Sample Input
+
+2 3 1
+Sample Output
+
+1 2 3 
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

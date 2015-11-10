@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0111)http://acm.hdu.edu.cn/webcontest/contest_showproblem.php?pid=1002&ojid=0&cid=3928&hide=1&problem=Problem%20%20B -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+	<title>Problem - 1002</title>
+	<meta name="keywords" content="hdoj,acm,icpc,online judge">
+		
+	<link href="./Problem - 1002bfs_files/global.css" rel="stylesheet" type="text/css">
+	<link href="./Problem - 1002bfs_files/contest.css" rel="stylesheet" type="text/css">
+	<link href="./Problem - 1002bfs_files/web.css" rel="stylesheet" type="text/css">
+	<script src="./Problem - 1002bfs_files/global.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="nav" style="display:none;"></div>
+<div id="contest_nav">
+	<a href="http://acm.hdu.edu.cn/"><img src="./Problem - 1002bfs_files/banner.jpg" style="border:none" alt="Banner"></a>
+	<strong><a href="http://acm.hdu.edu.cn/">Home Page</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_list.php">Web Contests</a></strong><a href="http://acm.hdu.edu.cn/webcontest/contest_list.php">
+	<strong></strong></a><strong><a href="http://acm.hdu.edu.cn/webcontest/contest_show.php?cid=3928">Problems</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_ranklist.php?cid=3928&page=1">Ranklist</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_status.php?cid=3928">Status</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_statistic.php?cid=3928">Statistics</a></strong>
+</div>
+<div id="content">
+	<h1>
+		Problem  B	</h1>	
+	<h5>Time Limit : 2000/1000ms (Java/Other)&nbsp;&nbsp;&nbsp;Memory Limit : 65536/32768K (Java/Other)</h5>
+	<h5>Total Submission(s) : 10&nbsp;&nbsp;&nbsp;Accepted Submission(s) : 7</h5>
+		
+<div class="panel_title" align="left">Problem Description</div> <div class="panel_content">Ignatius had a nightmare last night. He found himself in a labyrinth with a time bomb on him. The labyrinth has an exit, Ignatius should get out of the labyrinth before the bomb explodes. The initial exploding time of the bomb is set to 6 minutes. To prevent the bomb from exploding by shake, Ignatius had to move slowly, that is to move from one area to the nearest area(that is, if Ignatius stands on (x,y) now, he could only on (x+1,y), (x-1,y), (x,y+1), or (x,y-1) in the next minute) takes him 1 minute. Some area in the labyrinth contains a Bomb-Reset-Equipment. They could reset the exploding time to 6 minutes.<br><br>Given the layout of the labyrinth and Ignatius' start position, please tell Ignatius whether he could get out of the labyrinth, if he could, output the minimum time that he has to use to find the exit of the labyrinth, else output -1.<br><br>Here are some rules:<br>1. We can assume the labyrinth is a 2 array.<br>2. Each minute, Ignatius could only get to one of the nearest area, and he should not walk out of the border, of course he could not walk on a wall, too.<br>3. If Ignatius get to the exit when the exploding time turns to 0, he can't get out of the labyrinth.<br>4. If Ignatius get to the area which contains Bomb-Rest-Equipment when the exploding time turns to 0, he can't use the equipment to reset the bomb.<br>5. A Bomb-Reset-Equipment can be used as many times as you wish, if it is needed, Ignatius can get to any areas in the labyrinth as many times as you wish.<br>6. The time to reset the exploding time can be ignore, in other words, if Ignatius get to an area which contain Bomb-Rest-Equipment, and the exploding time is larger than 0, the exploding time would be reset to 6.<br></div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Input</div> <div class="panel_content">The input contains several test cases. The first line of the input is a single integer T which is the number of test cases. T test cases follow.<br>Each test case starts with two integers N and M(1&lt;=N,Mm=8) which indicate the size of the labyrinth. Then N lines follow, each line contains M integers. The array indicates the layout of the labyrinth.<br>There are five integers which indicate the different type of area in the labyrinth:<br>0: The area is a wall, Ignatius should not walk on it.<br>1: The area contains nothing, Ignatius can walk on it.<br>2: Ignatius' start position, Ignatius starts his escape from this position.<br>3: The exit of the labyrinth, Ignatius' target position.<br>4: The area contains a Bomb-Reset-Equipment, Ignatius can delay the exploding time by walking to these areas.<br></div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Output</div> <div class="panel_content">For each test case, if Ignatius can get out of the labyrinth, you should output the minimum time he needs, else you should just output -1.<br></div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Sample Input</div><div class="panel_content"><pre><div style="font-family:Courier New,Courier,monospace;">3<br>3 3<br>2 1 1<br>1 1 0<br>1 1 3<br>4 8<br>2 1 1 0 1 1 1 0<br>1 0 4 1 1 0 4 1<br>1 0 0 0 0 0 0 1<br>1 1 1 4 1 1 1 3<br>5 8<br>1 2 1 1 1 1 1 4 <br>1 0 0 0 1 0 0 1 <br>1 4 1 0 1 1 0 1 <br>1 0 0 0 0 3 0 1 <br>1 1 4 1 1 1 1 1 <br></div></pre></div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Sample Output</div><div class="panel_content"><pre><div style="font-family:Courier New,Courier,monospace;">4<br>-1<br>13<br></div></pre></div><div class="panel_bottom">&nbsp;</div><br>	<div class="procenter"><a href="http://acm.hdu.edu.cn/webcontest/contest_statistic.php?cid=3928&pid=1002">Statistic</a> | <a href="http://acm.hdu.edu.cn/webcontest/contest_submit.php?cid=3928&pid=1002&ojid=0">Submit</a> | <a href="http://acm.hdu.edu.cn/webcontest/contest_show.php?cid=3928">Back</a> </div>
+</div>
+<div id="footer">
+	<div><a href="javascript:self.close()">Close</a> | <a href="http://acm.hdu.edu.cn/webcontest/contest_showproblem.php?pid=1002&ojid=0&cid=3928&hide=1&problem=Problem%20%20B#nav">Top</a></div>
+		<ul>
+		<li>Hangzhou Dianzi University Online Judge</li>
+		<li>Copyright &#169; 2005-2013 <a href="mailto:acm@hdu.edu.cn">HDU ACM Team</a>. All Rights Reserved.</li>
+		<li><a href="http://acm.hdu.edu.cn/about_us/developer.php">Designer &amp; Developer </a>: <a>Wang Rongtao</a>&nbsp;<a>LinLe</a>&nbsp;<a href="mailto:gjavac@gmail.com">GaoJie</a>&nbsp;<a href="mailto:gl8997@gmail.com">GanLu</a></li>
+				<li class="pagerunstatus">Total 0.000444(s) query 2, Now is : 2013-02-25 20:22:08, Gzip enabled, Version : 3.0</li>
+		</ul>
+	<div><a href="javascript:history.go(-1);">Back</a> | <a href="javascript:history.go(1);">Forward</a></div>
+</div>
+
+
+</body></html>

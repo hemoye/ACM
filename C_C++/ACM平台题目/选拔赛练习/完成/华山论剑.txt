@@ -1,0 +1,44 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem B: 华山论剑?
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 86  Solved: 40
+[Submit][Status][Web Board]
+Description
+
+ 
+昨日，据说有一群精炼武艺的侠士纷纷来到华山，比试剑法。但不幸的是很多人在还没有上山前就在山脚被淘汰了，有一个从来没有练过武功的木匠扛着一把双头锤却有幸上了山顶，看了一场惊天动地的比武大赛。为什么呢？因为在山下有一盟约规定：为倡导和谐，传承中国的古老的文化中的对称美，任何人所持武器必须讲究对称美才能参加比赛！
+ 
+
+现在，聪明的你坐在电脑前，看到这道题的规定是不是有种似曾相识的感觉啊。有没有想用程序来帮那群被淘汰的侠士做做解释呢？为简易起见，我们就通过键盘的输入来表示他们所持武器,规定只要遵循从前往后看与从后往前看的字符形状一样即可>>>
+
+使用递归函数：int judgeArm(char str[], unsigned i)
+
+函数功能：判断是否符合条件的‘武器’
+
+str：输入的字符串；i：计数下标
+
+Input
+
+第一行输入测试组数T（1<=T<=100）
+输入一行你想要的输入表示武器, 其长度(1<=len<=1000);
+Output
+
+如果满足题目的要求，输出Ready for contest!
+否则输出Sorry, see you next time!
+Sample Input
+
+2
+==>>
+Q--Q
+Sample Output
+
+Sorry, see you next time!
+Ready for contest!
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

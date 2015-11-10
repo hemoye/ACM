@@ -1,0 +1,27 @@
+主页 	讨论版 	问题 	名次 	状态 	统计
+问题 L: 大数开方(JSU-ZJJ)
+时间限制: 5 Sec  内存限制: 64 MB
+提交: 1  解决: 0
+[提交][状态][讨论版]
+题目描述
+
+给定一个任意位数长度的数A，求它们数值的开方值，即A1/2。
+输入
+
+每个测试用例含有一个数，代表一个任意位数长度的数A。
+输出
+计算出这个任意位数长度的数数值的开方值，精确到与数A位数相同的精度，即A1/2。
+样例输入
+9 
+0.81
+样例输出
+3 
+0.9
+提示
+
+[提交][状态][讨论版]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

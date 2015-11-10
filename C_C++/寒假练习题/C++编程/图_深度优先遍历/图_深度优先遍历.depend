@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1361266078 source:f:\寒假练习题\c++编程\图_深度优先遍历\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

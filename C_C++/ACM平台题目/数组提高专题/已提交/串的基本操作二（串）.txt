@@ -1,0 +1,22 @@
+主页 	讨论版 	问题 	名次 	状态 	统计
+问题 K: 串的基本操作二（串）
+时间限制: 1 Sec  内存限制: 1 MB
+提交: 2  解决: 1
+[提交][状态][讨论版]
+题目描述
+
+输入一定量的单词（#结束），按字母顺序排序后输出，若有重复则只保留一个。
+输入
+输出
+样例输入
+hello I how fine free if free final full all aware #
+样例输出
+all aware final fine free full hello how I if
+提示
+
+[提交][状态][讨论版]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

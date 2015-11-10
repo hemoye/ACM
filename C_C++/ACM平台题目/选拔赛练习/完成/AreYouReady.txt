@@ -1,0 +1,34 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem H: AreYouReady?
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 192  Solved: 96
+[Submit][Status][Web Board]
+Description
+
+相信你在这个时刻，跃跃欲试了，进入正题了，给你一个字符串，输出不是删除其中的不是英文字母的符号，也就是说除了英文字母之外的字符都应该删除，请你输出删除后的字符串。
+
+Input
+
+一个整数n，表示测试数据的总数，接着n行，每行表示一组测试数据。
+
+Output
+
+对应每组测试数据，首先输出“Case #: ”,没有双引号，#表示第几组测试结果，接着输出该组测试结果，每组测试结果占一行。
+
+Sample Input
+
+2
+AreYouReady?
+YesI'mReady!
+Sample Output
+
+Case 1: AreYouReady
+Case 2: YesImReady
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

@@ -1,0 +1,32 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem M: C语言程序设计教程（第三版）课后习题10.2
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 180  Solved: 63
+[Submit][Status][Web Board]
+Description
+
+输入三个字符串，按由小到大的顺序输出
+Input
+
+3行字符串
+Output
+
+按照从小到大输出成3行
+Sample Input
+
+cde
+afg
+abc
+Sample Output
+
+abc
+afg
+cde
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

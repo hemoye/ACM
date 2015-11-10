@@ -1,0 +1,37 @@
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM
+
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem J: 绝对值排序
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 502  Solved: 92
+[Submit][Status][Web Board]
+Description
+
+输入n(n<=100)个整数，按照绝对值从大到小排序后输出。题目保证对于每一个测试实例，所有的数的绝对值都不相等。
+Input
+
+题目第一个数是sum表示测试数据的组数，每组占一行，每行的第一个数字为n,接着是n个绝对值小于10000的整数表示输入数据。
+Output
+
+对于每个测试实例，输出排序后的结果，每一个数后有一个空格。首先输出“Case :# ”,#表示第几组结果，每个测试实例占一行。如：Case 1: -4 3 2 
+Sample Input
+
+2
+3 3 -4 2
+4 0 1 2 -3
+Sample Output
+
+Case 1: -4 3 2 
+Case 2: -3 2 1 0 
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

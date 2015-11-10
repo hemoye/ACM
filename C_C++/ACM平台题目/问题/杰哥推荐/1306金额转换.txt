@@ -1,0 +1,28 @@
+1306金额转换
+Time Limit: 1000 Sec  Memory Limit: 1000 MB
+Submit: 58  Solved: 17
+[Submit][Status][Web Board]
+Description
+
+将数字金额转换成大写
+Input
+
+123456.34
+Output
+
+壹拾贰万叁仟肆佰伍拾陆圆叁角肆分
+Sample Input
+123456.34
+Sample Output
+壹拾贰万叁仟肆佰伍拾陆圆叁角肆分
+HINT
+
+Source
+
+吉首大学软件服务外包学院
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

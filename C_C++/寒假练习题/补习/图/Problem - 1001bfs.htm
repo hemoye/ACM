@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0111)http://acm.hdu.edu.cn/webcontest/contest_showproblem.php?pid=1001&ojid=0&cid=3928&hide=1&problem=Problem%20%20A -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+	<title>Problem - 1001</title>
+	<meta name="keywords" content="hdoj,acm,icpc,online judge">
+		
+	<link href="./Problem - 1001bfs_files/global.css" rel="stylesheet" type="text/css">
+	<link href="./Problem - 1001bfs_files/contest.css" rel="stylesheet" type="text/css">
+	<link href="./Problem - 1001bfs_files/web.css" rel="stylesheet" type="text/css">
+	<script src="./Problem - 1001bfs_files/global.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="nav" style="display:none;"></div>
+<div id="contest_nav">
+	<a href="http://acm.hdu.edu.cn/"><img src="./Problem - 1001bfs_files/banner.jpg" style="border:none" alt="Banner"></a>
+	<strong><a href="http://acm.hdu.edu.cn/">Home Page</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_list.php">Web Contests</a></strong><a href="http://acm.hdu.edu.cn/webcontest/contest_list.php">
+	<strong></strong></a><strong><a href="http://acm.hdu.edu.cn/webcontest/contest_show.php?cid=3928">Problems</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_ranklist.php?cid=3928&page=1">Ranklist</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_status.php?cid=3928">Status</a></strong>
+	<strong><a href="http://acm.hdu.edu.cn/webcontest/contest_statistic.php?cid=3928">Statistics</a></strong>
+</div>
+<div id="content">
+	<h1>
+		Problem  A	</h1>	
+	<h5>Time Limit : 3000/1000ms (Java/Other)&nbsp;&nbsp;&nbsp;Memory Limit : 32768/32768K (Java/Other)</h5>
+	<h5>Total Submission(s) : 22&nbsp;&nbsp;&nbsp;Accepted Submission(s) : 5</h5>
+		
+<div class="panel_title" align="left">Problem Description</div> <div class="panel_content">可怜的公主在一次次被魔王掳走一次次被骑士们救回来之后，而今，不幸的她再一次面临生命的考验。魔王已经发出消息说将在T时刻吃掉公主，因为他听信谣言说吃公主的肉也能长生不老。年迈的国王正是心急如焚，告招天下勇士来拯救公主。不过公主早已习以为常，她深信智勇的骑士LJ肯定能将她救出。<br>现据密探所报，公主被关在一个两层的迷宫里，迷宫的入口是S（0，0，0），公主的位置用P表示，时空传输机用#表示，墙用*表示，平地用.表示。骑士们一进入时空传输机就会被转到另一层的相对位置，但如果被转到的位置是墙的话，那骑士们就会被撞死。骑士们在一层中只能前后左右移动，每移动一格花1时刻。层间的移动只能通过时空传输机，且不需要任何时间。</div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Input</div> <div class="panel_content">输入的第一行C表示共有C个测试数据，每个测试数据的前一行有三个整数N，M，T。 N，M迷宫的大小N*M（1 &lt;= N,M &lt;=10)。T如上所意。接下去的前N*M表示迷宫的第一层的布置情况，后N*M表示迷宫第二层的布置情况。</div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Output</div> <div class="panel_content">如果骑士们能够在T时刻能找到公主就输出“YES”，否则输出“NO”。</div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Sample Input</div><div class="panel_content"><pre><div style="font-family:Courier New,Courier,monospace;">1<br>5 5 14<br>S*#*.<br>.#...<br>.....<br>****.<br>...#.<br><br>..*.P<br>#.*..<br>***..<br>...*.<br>*.#..</div></pre></div><div class="panel_bottom">&nbsp;</div><br><div class="panel_title" align="left">Sample Output</div><div class="panel_content"><pre><div style="font-family:Courier New,Courier,monospace;">YES</div></pre></div><div class="panel_bottom">&nbsp;</div><br>	<div class="procenter"><a href="http://acm.hdu.edu.cn/webcontest/contest_statistic.php?cid=3928&pid=1001">Statistic</a> | <a href="http://acm.hdu.edu.cn/webcontest/contest_submit.php?cid=3928&pid=1001&ojid=0">Submit</a> | <a href="http://acm.hdu.edu.cn/webcontest/contest_show.php?cid=3928">Back</a> </div>
+</div>
+<div id="footer">
+	<div><a href="javascript:self.close()">Close</a> | <a href="http://acm.hdu.edu.cn/webcontest/contest_showproblem.php?pid=1001&ojid=0&cid=3928&hide=1&problem=Problem%20%20A#nav">Top</a></div>
+		<ul>
+		<li>Hangzhou Dianzi University Online Judge</li>
+		<li>Copyright &#169; 2005-2013 <a href="mailto:acm@hdu.edu.cn">HDU ACM Team</a>. All Rights Reserved.</li>
+		<li><a href="http://acm.hdu.edu.cn/about_us/developer.php">Designer &amp; Developer </a>: <a>Wang Rongtao</a>&nbsp;<a>LinLe</a>&nbsp;<a href="mailto:gjavac@gmail.com">GaoJie</a>&nbsp;<a href="mailto:gl8997@gmail.com">GanLu</a></li>
+				<li class="pagerunstatus">Total 0.000405(s) query 2, Now is : 2013-02-25 20:21:22, Gzip enabled, Version : 3.0</li>
+		</ul>
+	<div><a href="javascript:history.go(-1);">Back</a> | <a href="javascript:history.go(1);">Forward</a></div>
+</div>
+
+
+</body></html>

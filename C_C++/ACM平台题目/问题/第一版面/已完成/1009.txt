@@ -1,0 +1,40 @@
+题目描述
+
+编制程序，统计文本stdin中字符$出现的次数，并将结果写入文件stdout
+
+输入
+
+字符文本
+
+输出
+
+$次数
+
+样例输入
+as$dfkjhkjkjdhf asdfkj$lskdfj werijweirjo$wie
+样例输出
+3
+提示
+#include <stdio.h>
+
+int main(){
+
+  FILE *p;
+
+  .....
+
+  //p=fopen("data.txt","r");
+
+  p=stdin;
+
+  .....
+
+  //p=fopen("res.txt","w");
+
+  p=stdout;
+
+  ....
+
+  return 0; 
+
+}

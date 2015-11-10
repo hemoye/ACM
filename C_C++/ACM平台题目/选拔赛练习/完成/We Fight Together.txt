@@ -1,0 +1,37 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem S: We Fight Together
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 328  Solved: 92
+[Submit][Status][Web Board]
+Description
+这个相当熟悉吧？
+这里还差了一个人，算啦，就这么多都够的了，这里有三个能力者，分别是CHOPPER, NICO ROBIN, MONKEY.D.LUFFY。
+要求编程根据输入的名字，输出是否能力者。
+Input
+第一行一个sum ( sum < 9 )，接着n行，每行一个字符串，表示一个人的名字，输入的只是上图中出现过的人物。
+
+Output
+
+对于每一组测试数据输出首先输出"Case #: "，没有双引号，#为测试数据的组数，接着如果是能力者，输出YES，否则输出NO每组结果占一行。
+
+Sample Input
+
+3
+CHOPPER
+NICO ROBIN
+MONKEY.D.LUFFY
+Sample Output
+
+Case 1: YES
+Case 2: YES
+Case 3: YES
+HINT
+
+ 建议输入控制，cas 代表测试数据组数 for(i = 1; i <= cas; i ++ ) ,,,
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

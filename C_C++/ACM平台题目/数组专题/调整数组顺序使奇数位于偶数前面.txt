@@ -1,0 +1,35 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem R: 调整数组顺序使奇数位于偶数前面
+
+Time Limit: 1000 Sec  Memory Limit: 1000 MB
+Submit: 41  Solved: 37
+[Submit][Status][Web Board]
+Description
+
+题目：输入一个整数数组，调整数组中数字的顺序，使得所有奇数位于数组的前半部分，所有偶数位于数组的后半部分，奇数部分降序排列输出，偶数部分升序输出。
+
+Input
+
+输入：
+
+8 13 25 18 56 11 77 98
+
+Output
+
+输出：
+
+77 25 13 11 8 18 56 98
+
+Sample Input
+
+8 13 25 18 56 11 77 98
+Sample Output
+
+77 25 13 11 8 18 56 98
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

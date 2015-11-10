@@ -1,0 +1,32 @@
+
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem O: 串的基本操作一（串）
+
+Time Limit: 1 Sec  Memory Limit: 1 MB
+Submit: 9  Solved: 3
+[Submit][Status][Web Board]
+Description
+
+任意输入一行字符串，检索重复出现的字符。将原字符串中的重复字符删除后输出，同时输出有哪些字符是重复的。
+
+Input
+
+Output
+
+两个输出之间空一行
+
+Sample Input
+
+ads_fagaerididfhdus_afiew
+Sample Output
+
+ads_fgerihuw
+
+ads_fei
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

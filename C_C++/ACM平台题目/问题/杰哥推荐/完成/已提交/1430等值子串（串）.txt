@@ -1,0 +1,20 @@
+1430等值子串（串）
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 64  Solved: 9
+[Submit][Status][Web Board]
+Description
+
+如果字符串的一个子串（其长度大于1）的各个字符均相同，则称之为等值子串。试设计一算法，输入字符串S，以“！”作为结束标志。如果串S中不存在等值子串，则输出信息“无等值子串”，否则求出（输出）一个长度最大的等值子串。
+Input
+
+输入字符串s
+Output
+
+找出其中长度最大的等值子串
+Sample Input
+asdf123!
+Sample Output
+无等值子串
+HINT
+
+Source

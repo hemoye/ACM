@@ -1,0 +1,27 @@
+class Ticket implements Runnable
+{
+	private int num = 20;
+	public void run()
+	{
+		while ( true )
+		{
+			if ( num > 0 )
+			{
+				System.out.println( Thread.currentThread().getName() + "=====  " + num-- );
+			}
+		}
+	}
+}
+public class Demo03
+{
+	public static void main( String agts[] )
+	{
+		Ticket d = new Ticket();
+		Thread t1 = new Thread(d);
+		Thread t2 = new Thread(d);
+		Thread t3 = new Thread(d);
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+}

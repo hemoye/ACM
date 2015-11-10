@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1365733587 source:c:\documents and settings\administrator\桌面\c++习题\实验一\triangle\main.cpp
+	<iostream>
+	<cstdio>
+	"class.cpp"
+
+1365733606 c:\documents and settings\administrator\桌面\c++习题\实验一\triangle\class.cpp
+	<cstdio>
+	<cmath>
+

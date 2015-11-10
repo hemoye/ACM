@@ -1,0 +1,44 @@
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM
+
+Welcome to ACM/ICPC Online Judge
+Home
+Web Board
+ProblemSet
+Status
+Ranklist
+19 Contest
+_ 2012级做题排名 _
+FAQ
+ModifyUser 20124206065 (0) Recent Logout 
+1205成绩评估
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 419  Solved: 139
+[Submit][Status][Web Board]
+Description
+
+我们知道，高中会考是按等级来的。 90~100为A; 80~89为B; 70~79为C; 60~69为D; 0~59为E。 编写一个程序，对输入的一个百分制的成绩t，将其转换成对应的等级。
+
+要求用函数完成：
+
+void startFunction (int score) {
+
+       Judge(score);
+
+}
+Input
+
+输入数据有多组，每组占一行，由一个整数组成。
+Output
+
+对于每组输入数据，输出一行。如果输入数据不在0~100范围内，请输出一行：“Score is error!”。
+Sample Input
+56 67 100 123
+Sample Output
+E D A Score is error!
+HINT
+
+Source
+
+C语言基础练习
+[Submit][Status][Web Board]

@@ -1,0 +1,25 @@
+问题 G: 判断是否是合法邮箱（串）
+时间限制: 1 Sec  内存限制: 128 MB
+提交: 512  解决: 188
+[提交][状态][讨论版]
+题目描述
+
+输入一个字符串，判断是否是合法邮箱（格式正确即可，不管是否真的存在）输入的只能是字母、数字、下划线、@以及.五种， @前后只能是字母或者数字，而且.后只能是com， 是则输出YES ，否则输出NO
+输入
+
+一串字符
+输出
+
+判断结果
+样例输入
+adf12@qw213.com
+样例输出
+YES
+提示
+
+[提交][状态][讨论版]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

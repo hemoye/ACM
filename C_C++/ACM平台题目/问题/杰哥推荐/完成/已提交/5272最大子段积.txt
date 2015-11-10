@@ -1,0 +1,39 @@
+5272最大子段积
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 181  Solved: 74
+[Submit][Status][Web Board]
+Description
+
+给定一个整型数m（以0结束），然后继续输入m个数，求出最大连续子段的乘积。
+
+Input
+
+5
+
+1 2 -8 12 7
+
+Output
+
+84
+
+Sample Input
+5 
+1 2 -1 4 5 
+6 
+4 3 2 -5 4 6 
+0
+Sample Output
+20 24
+HINT
+
+嘿嘿……
+
+Source
+
+Lacky、J
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

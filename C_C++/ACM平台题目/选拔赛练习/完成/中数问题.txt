@@ -1,0 +1,38 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem K: 中数问题
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 577  Solved: 246
+[Submit][Status][Web Board]
+Description
+
+给定一组数据a[0],a[1]....a[n](n >= 1) 输出从小到大排列后最中间的那个数。若是偶数个数，请输出最中间两个数的平均数（取整）。
+Input
+
+有多组测试数据，第一行读入测试数据的组数，然后读入一组中数据的个数，再依次读入该组中的测试数据。
+
+Output
+
+Case N: 中数。Case 和 N之间有空格，N和冒号之间没空格，冒号和中数之间有空格。
+
+Sample Input
+
+3
+6
+2 1 3 5 6 4
+7
+5 6 88 99 4 1 888
+6
+4 5 6 8 7 4
+Sample Output
+
+Case 1: 3
+Case 2: 6
+Case 3: 5
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

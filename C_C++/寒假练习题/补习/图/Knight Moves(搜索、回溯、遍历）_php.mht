@@ -1,0 +1,424 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA5ILGjtOY=?=
+Subject: =?gb2312?B?S25pZ2h0IE1vdmVzKMvRy/ehorvYy92horHpwPqjqQ==?=
+Date: Mon, 25 Feb 2013 20:10:39 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CE1394.2E1F3DD0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_0000_01CE1394.2E1F3DD0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.1.1:8080/JudgeOnline/problem.php?cid=1080&pid=2
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Knight =
+Moves(=E6=90=9C=E7=B4=A2=E3=80=81=E5=9B=9E=E6=BA=AF=E3=80=81=E9=81=8D=E5=8E=
+=86=EF=BC=89</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" =
+http-equiv=3DContent-Type><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/template/classic/hoj.css">
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16464"></HEAD>
+<BODY>
+<DIV id=3Dwrapper><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/include/hoj.css">
+<TABLE class=3Dtoprow width=3D"100%">
+  <TBODY>
+  <TR align=3Dcenter>
+    <TD width=3D"15%"><A class=3Dhd=20
+      href=3D"http://127.0.1.1:8080/JudgeOnline/">Home</A>=20
+    <TD width=3D"15%"><A class=3Dhd=20
+      href=3D"http://127.0.1.1:8080/JudgeOnline/bbs.php?cid=3D1080">Web =
+Board</A>=20
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://127.0.1.1:8080/JudgeOnline/contest.php?cid=3D1080">Problem=
+Set</A>=20
+
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://127.0.1.1:8080/JudgeOnline/contestrank.php?cid=3D1080">Sta=
+nding</A>=20
+
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://127.0.1.1:8080/JudgeOnline/status.php?cid=3D1080">Status</=
+A>=20
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://127.0.1.1:8080/JudgeOnline/conteststatistics.php?cid=3D108=
+0">Statistics</A>=20
+    </TD></TR></TBODY></TABLE>
+<DIV id=3Dbroadcast>
+<MARQUEE id=3Dbroadcast onmouseover=3Dthis.stop() =
+onmouseout=3Dthis.start()=20
+direction=3Dup scrollAmount=3D1 scrollDelay=3D250 =
+;></MARQUEE></DIV><!--end broadcast-->
+<DIV id=3Dmain>
+<CENTER>
+<H2>Problem C: Knight =
+Moves(=E6=90=9C=E7=B4=A2=E3=80=81=E5=9B=9E=E6=BA=AF=E3=80=81=E9=81=8D=E5=8E=
+=86=EF=BC=89</H2><SPAN class=3Dgreen>Time Limit:=20
+</SPAN>10001 Sec&nbsp;&nbsp;<SPAN class=3Dgreen>Memory Limit: =
+</SPAN>65536=20
+MB<BR><SPAN class=3Dgreen>Submit: </SPAN>1&nbsp;&nbsp;<SPAN =
+class=3Dgreen>Solved:=20
+</SPAN>1<BR>[<A=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/submitpage.php?cid=3D1080&amp;p=
+id=3D2&amp;langmask=3D0">Submit</A>][<A=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/problemstatus.php?id=3D2704">St=
+atus</A>][<A=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/bbs.php?pid=3D2704&amp;cid=3D10=
+80">Web=20
+Board</A>]</CENTER>
+<H2>Description</H2>
+<DIV class=3Dcontent>
+<DIV lang=3Den-US class=3Dptx>A friend of you is doing research on the =
+Traveling=20
+Knight Problem (TKP) where you are to find the shortest closed tour of =
+knight=20
+moves that visits each square of a given set of n squares on a =
+chessboard=20
+exactly once. He thinks that the most difficult part of the problem is=20
+determining the smallest number of knight moves between two given =
+squares and=20
+that, once you have accomplished this, finding the tour would be easy. =
+<BR>Of=20
+course you know that it is vice versa. So you offer him to write a =
+program that=20
+solves the "difficult" part. <BR><BR>Your job is to write a program that =
+takes=20
+two squares a and b as input and then determines the number of knight =
+moves on a=20
+shortest route from a to b.</DIV></DIV>
+<H2>Input</H2>
+<DIV class=3Dcontent>
+<DIV lang=3Den-US class=3Dptx>The input will contain one or more test =
+cases. Each=20
+test case consists of one line containing two squares separated by one =
+space. A=20
+square is a string consisting of a letter (a-h) representing the column =
+and a=20
+digit (1-8) representing the row on the chessboard.</DIV></DIV>
+<H2>Output</H2>
+<DIV class=3Dcontent>
+<DIV lang=3Den-US class=3Dptx>For each test case, print one line saying =
+"To get from=20
+xx to yy takes n knight moves.".</DIV></DIV>
+<H2>Sample Input</H2>
+<DIV class=3Dcontent><SPAN class=3Dsampledata><PRE>e2 e4
+a1 b2
+b2 c3
+a1 h8
+a1 h7
+h8 a1
+b1 c3
+f6 f6
+
+</PRE></SPAN></DIV>
+<H2>Sample Output</H2>
+<DIV class=3Dcontent><SPAN class=3Dsampledata><PRE>To get from e2 to e4 =
+takes 2 knight moves.
+To get from a1 to b2 takes 4 knight moves.
+To get from b2 to c3 takes 2 knight moves.
+To get from a1 to h8 takes 6 knight moves.
+To get from a1 to h7 takes 5 knight moves.
+To get from h8 to a1 takes 6 knight moves.
+To get from b1 to c3 takes 1 knight moves.
+To get from f6 to f6 takes 0 knight moves.
+
+</PRE></SPAN></DIV>
+<H2>HINT</H2>
+<DIV class=3Dcontent>
+<P></P></DIV>
+<CENTER>[<A=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/submitpage.php?cid=3D1080&amp;p=
+id=3D2&amp;langmask=3D0">Submit</A>][<A=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/problemstatus.php?id=3D2704">St=
+atus</A>][<A=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/bbs.php?pid=3D2704&amp;cid=3D10=
+80">Web=20
+Board</A>]</CENTER>
+<DIV id=3Dfoot>
+<DIV id=3Dfoot><!--<br>=0A=
+=0A=
+<a href=3D"./"><span class=3Dred>HOME</span></a>=0A=
+<a href=3D"javascript:history.go(-1)"><span class=3Dred>Back</span></a>=0A=
+=0A=
+<hr>=0A=
+-->
+<CENTER>
+<P><A =
+href=3D"http://127.0.1.1:8080/JudgeOnline/setlang.php?lang=3Dcn">=E4=B8=AD=
+=E6=96=87</A>&nbsp;=20
+<A=20
+href=3D"http://127.0.1.1:8080/JudgeOnline/setlang.php?lang=3Den">English<=
+/A>&nbsp;=20
+<BR>=E5=90=89=E9=A6=96=E5=A4=A7=E5=AD=A6=E8=BD=AF=E4=BB=B6=E6=9C=8D=E5=8A=
+=A1=E5=A4=96=E5=8C=85=E5=AD=A6=E9=99=A2 2010-2012 =
+<BR></P></CENTER></DIV><!--end foot--></DIV><!--end main--><!--not =
+cached--></DIV><!--end foot--></DIV><!--end main-->
+<DIV></DIV><!--end wrapper--></BODY></HTML>
+
+------=_NextPart_000_0000_01CE1394.2E1F3DD0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.1.1:8080/JudgeOnline/template/classic/hoj.css
+
+A {
+	COLOR: #1a5cc8; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: orange; TEXT-DECORATION: underline
+}
+H2 {
+	COLOR: blue
+}
+#wrapper {
+	POSITION: relative; WIDTH: 95%; LEFT: 2.5%
+}
+.toprow {
+	WHITE-SPACE: nowrap; BACKGROUND: url(image/menu_bg.png); COLOR: =
+#ffffff; FONT-WEIGHT: bold
+}
+.toprow A {
+	MARGIN: 15px; FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 18px; =
+FONT-WEIGHT: bold
+}
+.toprow A:hover {
+	MARGIN: 15px; FONT-FAMILY: Arial; COLOR: orange; FONT-SIZE: 18px; =
+FONT-WEIGHT: bold
+}
+.oddrow {
+	BACKGROUND-COLOR: #e5ecf9; WHITE-SPACE: nowrap
+}
+.evenrow {
+	BACKGROUND-COLOR: #ffffff; WHITE-SPACE: nowrap
+}
+BODY {
+	BACKGROUND-IMAGE: url(image/background.jpg); BACKGROUND-COLOR: #ffffff
+}
+.hd {
+	COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.time {
+	TEXT-ALIGN: right
+}
+.ip {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px
+}
+TR.userinfo {
+	BACKGROUND-COLOR: #fffff0; FONT-SIZE: 16px
+}
+SPAN.yes {
+	COLOR: green; FONT-WEIGHT: bolder
+}
+SPAN.no {
+	COLOR: red; FONT-WEIGHT: bolder
+}
+.green {
+	COLOR: green
+}
+.red {
+	COLOR: red
+}
+.blue {
+	COLOR: blue
+}
+.gray {
+	COLOR: gray
+}
+.orange {
+	COLOR: orange
+}
+.navy {
+	COLOR: navy
+}
+SPAN.exadmin {
+	COLOR: gray
+}
+.center {
+	TEXT-ALIGN: center; WIDTH: 100%
+}
+#center {
+	TEXT-ALIGN: center; WIDTH: 100%
+}
+DIV.content {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 20px; =
+PADDING-RIGHT: 20px; FONT-FAMILY: Times New Roman; BACKGROUND: #e4f0f8 =
+0px 0px; HEIGHT: auto; FONT-SIZE: 14px; PADDING-TOP: 0px
+}
+.sampledata {
+	FONT-FAMILY: Monospace; WHITE-SPACE: pre; BACKGROUND: #8db8ff 0px 0px; =
+FONT-SIZE: 18px
+}
+#head {
+	Z-INDEX: 1; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+53px; VISIBILITY: visible
+}
+#menu {
+	Z-INDEX: 2; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; =
+BACKGROUND: url(image/menu_bg.png) 0px 0px; HEIGHT: 35px; VISIBILITY: =
+visible; FONT-WEIGHT: bold
+}
+.menu_item {
+	POSITION: relative; DISPLAY: inline; VERTICAL-ALIGN: bottom; TOP: 5px
+}
+.menu_item A {
+	COLOR: #ffffff; FONT-SIZE: 20px; TOP: 2px
+}
+.menu_item_selected {
+	COLOR: orange
+}
+#profile {
+	Z-INDEX: 3; POSITION: absolute; TEXT-ALIGN: right; WIDTH: 100%; HEIGHT: =
+32px; VISIBILITY: visible; FONT-WEIGHT: bold; TOP: 0px; LEFT: 0px
+}
+#broadcast {
+	Z-INDEX: 4; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+50px; VISIBILITY: visible; COLOR: red
+}
+#main {
+	Z-INDEX: 6; POSITION: static; WIDTH: 100%; HEIGHT: auto
+}
+#foot {
+	Z-INDEX: 7; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+133px; VISIBILITY: visible
+}
+#logo {
+	POSITION: static; VERTICAL-ALIGN: middle
+}
+
+------=_NextPart_000_0000_01CE1394.2E1F3DD0
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.1.1:8080/JudgeOnline/include/hoj.css
+
+A {
+	COLOR: #1a5cc8; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: orange; TEXT-DECORATION: underline
+}
+H2 {
+	COLOR: blue
+}
+#wrapper {
+	POSITION: relative; WIDTH: 95%; LEFT: 2.5%
+}
+.toprow {
+	WHITE-SPACE: nowrap; BACKGROUND: url(../image/menu_bg.png); COLOR: =
+#ffffff; FONT-WEIGHT: bold
+}
+.toprow A {
+	MARGIN: 15px; FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 18px; =
+FONT-WEIGHT: bold
+}
+.toprow A:hover {
+	MARGIN: 15px; FONT-FAMILY: Arial; COLOR: orange; FONT-SIZE: 18px; =
+FONT-WEIGHT: bold
+}
+.oddrow {
+	BACKGROUND-COLOR: #e5ecf9; WHITE-SPACE: nowrap
+}
+.evenrow {
+	BACKGROUND-COLOR: #ffffff; WHITE-SPACE: nowrap
+}
+BODY {
+	BACKGROUND-IMAGE: url(../image/background.jpg); BACKGROUND-COLOR: =
+#ffffff
+}
+.hd {
+	COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.time {
+	TEXT-ALIGN: right
+}
+.ip {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px
+}
+TR.userinfo {
+	BACKGROUND-COLOR: #fffff0; FONT-SIZE: 16px
+}
+SPAN.yes {
+	COLOR: green; FONT-WEIGHT: bolder
+}
+SPAN.no {
+	COLOR: red; FONT-WEIGHT: bolder
+}
+.green {
+	COLOR: green
+}
+.red {
+	COLOR: red
+}
+.blue {
+	COLOR: blue
+}
+.gray {
+	COLOR: gray
+}
+.orange {
+	COLOR: orange
+}
+.navy {
+	COLOR: navy
+}
+SPAN.exadmin {
+	COLOR: gray
+}
+#center {
+	TEXT-ALIGN: center
+}
+DIV.content {
+	BACKGROUND-IMAGE: url(../image/background.jpg); TEXT-ALIGN: left; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: =
+20px; FONT-FAMILY: Times New Roman; HEIGHT: auto; FONT-SIZE: 14px; =
+PADDING-TOP: 0px
+}
+.sampledata {
+	FONT-FAMILY: Monospace; WHITE-SPACE: pre; BACKGROUND: #dcdcdc 0px 0px; =
+FONT-SIZE: 18px
+}
+#head {
+	Z-INDEX: 1; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+53px; VISIBILITY: visible
+}
+#menu {
+	Z-INDEX: 2; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; =
+BACKGROUND: url(../image/menu_bg.png) 0px 0px; HEIGHT: 35px; VISIBILITY: =
+visible; FONT-WEIGHT: bold
+}
+.menu_item {
+	POSITION: relative; DISPLAY: inline; VERTICAL-ALIGN: bottom; TOP: 5px
+}
+.menu_item A {
+	COLOR: #ffffff; FONT-SIZE: 20px; TOP: 2px
+}
+#profile {
+	Z-INDEX: 3; POSITION: absolute; TEXT-ALIGN: right; WIDTH: 100%; HEIGHT: =
+32px; VISIBILITY: visible; FONT-WEIGHT: bold; TOP: 0px; LEFT: 0px
+}
+#broadcast {
+	Z-INDEX: 4; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+50px; VISIBILITY: visible; COLOR: red
+}
+#main {
+	Z-INDEX: 6; POSITION: static; WIDTH: 100%; HEIGHT: auto
+}
+#foot {
+	Z-INDEX: 7; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+133px; VISIBILITY: visible
+}
+#logo {
+	POSITION: static; VERTICAL-ALIGN: middle
+}
+
+------=_NextPart_000_0000_01CE1394.2E1F3DD0--

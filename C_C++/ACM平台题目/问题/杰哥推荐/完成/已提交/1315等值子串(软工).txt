@@ -1,0 +1,18 @@
+1315等值子串(软工)
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 25  Solved: 15
+[Submit][Status][Web Board]
+Description
+
+输入一个字符串，查找最长的等值子串，输出所有最长的等值子串,输出多个等值子串时以回车为分隔符，若没有等值子串则输出NO。(等值子串就是长度大于1且相邻的字符相等的字符串，如：123asdggglkjhffsdfppp中ggg、ff、ppp就是等值字串)
+Input
+
+一个字符串。
+Output
+
+所有的最大等值子串。
+Sample Input
+aasssffff132fffffff12
+Sample Output
+fffffff
+HINT

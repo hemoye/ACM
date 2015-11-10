@@ -1,0 +1,36 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem T: 求二维数组中的鞍点【数组】
+
+Time Limit: 1000 Sec  Memory Limit: 128 MB
+Submit: 4  Solved: 2
+[Submit][Status][Web Board]
+Description
+
+如果矩阵A中存在这样的一个元素A[i,j]满足条件:A[i,j]是第i行中值最小的元素,且又是第j列中值最大的元素，则称之为该矩阵的一个马鞍点。请编程计算出m*n的矩阵A的所有马鞍点。
+
+Input
+
+输入m,n
+
+然后输入数组中的每个元素
+
+Output
+
+输出m*n的矩阵A的所有马鞍点
+
+Sample Input
+
+3 3
+1 7 3
+5 4 6
+7 8 9
+Sample Output
+
+1 4
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

@@ -1,0 +1,26 @@
+主页 	讨论版 	问题 	名次 	状态 	统计
+问题 J: 大数的幂(JSU-ZJJ)
+时间限制: 5 Sec  内存限制: 64 MB
+提交: 1  解决: 0
+[提交][状态][讨论版]
+题目描述
+给定任意位数长度的两个数A，B，求第一个数的第二个数的幂AB。
+输入
+
+每个测试用例含有两个数，代表两个任意位数长度的数A，B.
+输出
+
+计算出这两个任意位数长度的数的幂AB(B为整数)。
+样例输入
+2.3 2 
+2.5 -2
+样例输出
+5.29 0.16
+提示
+
+[提交][状态][讨论版]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

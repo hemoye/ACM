@@ -1,0 +1,24 @@
+1210: 编辑距离
+Time Limit: 1 Sec  Memory Limit: 10 MB
+Submit: 6  Solved: 3
+[Submit][Status][Web Board]
+Description
+假设字符串的基本操作仅为：删除一个字符、插入一个字符和将一个字符修改成另一个字符这三种操作。 我们把进行了一次上述三种操作的任意一种操作称为进行了一步字符基本操作。 下面我们定义两个字符串的编辑距离：对于两个字符串a和b，通过上述的基本操作，我们可以把a变成b或b变成a，那么字符串a变成字符串b需要的最少基本字符操作步数称为字符串a和字符串b的编辑距离。 例如：a="ABC",b="CBCD",则a与b的编辑距离为2。 你的任务就是：编一个快速的程序来计算任意两个字符串的编辑距离。
+Input
+输入包含多组测试数据。每组测试数据一行，为字符串A和字符串B。 字符串的长度不大于1024，且全为字母。
+Output
+编辑距离。
+Sample Input
+ABC CBCD
+Sample Output
+2
+HINT
+
+我相信动态规划算法能解决这题，因为我就是这样做的。^_^
+Source
+
+悠灵圣域
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin

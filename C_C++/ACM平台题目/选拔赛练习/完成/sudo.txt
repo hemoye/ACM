@@ -1,0 +1,51 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem E sudo
+
+Time Limit 1 Sec  Memory Limit 128 MB
+Submit 26  Solved 8
+[Submit][Status][Web Board]
+Description
+大家知道题目的意思吗？不知道的话就吧....
+不同的linux版本都有其固定的安装源，例如 ubuntu 就可以使用 apt-get 获取资源，而 fedora 就可以使用 yum 源， openSuse 则会使用 zypper,
+但是不论那一种都有一定的格式要求，就是 sudo + 获取资源方式 + 操作 + 资源名称（+ 代表空格）
+例如使用 fedora 获取并安装 mysql数据库则可以使用 terminal 输入命令： sudo yum install mysql-server
+为了照顾小朋友，linux衍生版只有上述3个版本，操作 有 install , update , upgrade, 这3个，而你的任务是要判断一个命令是否合法的linux源获取命令,另外如果使用update和upgrade的话后面不能加任何东西了,每一个段使用空格分隔。
+Input
+
+ 第一个数是一个n (n  1,000)表示有，n组测试数据，接着n行，每行一个字符串，表示要判断的命令
+
+Output
+
+对于每个测试数据首先 输出 Case ,接着输出一个数字表示第几个测试数据结果，如果该命令是一个合法的命令，则输出valid接着输出linux的衍生版使用空格分隔,否则输出invalid，每个结果最后必须换行.
+
+Sample Input
+
+4
+sudo apt-get install mysql-server
+sudo yum install mysql-server
+sudo zypper install mysql-server
+sudo zypper update banshee
+Sample Output
+
+Case 1 valid ubuntu
+Case 2 valid fedora
+Case 3 valid openSuse
+Case 4 invalid
+HINT
+
+10% 的测试数据n  10
+
+
+20% 的测试数据n  50
+
+
+100% 的测试数据n  1000
+
+
+feng
+
+[Submit][Status][Web Board]
+  中文    English  	
+Anything about the Problems, Please Contact Adminadmin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

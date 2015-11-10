@@ -1,0 +1,26 @@
+5041敲七
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 14  Solved: 7
+[Submit][Status][Web Board]
+Description
+
+输出7和7的倍数，还有包含7的数字例如（17，27，37...70，71，72，73...）
+Input
+
+一个整数N。(N不大于30000)
+Output
+
+统计出不大于N的与7有关的数字的个数。如20以内与7有关的数为7、14、17共3个。
+Sample Input
+20
+Sample Output
+3
+HINT
+
+Source
+
+吉首大学软件服务外包学院
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin

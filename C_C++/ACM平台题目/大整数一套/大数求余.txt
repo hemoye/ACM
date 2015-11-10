@@ -1,0 +1,29 @@
+主页 	讨论版 	问题 	名次 	状态 	统计
+问题 M: 大数求余
+时间限制: 3 Sec  内存限制: 64 MB
+提交: 9  解决: 4
+[提交][状态][讨论版]
+题目描述
+As we know, Big Number is always troublesome. But it's really important in our ACM. And today, your task is to write a program to calculate A mod B.
+To make the problem easier, I promise that B will be smaller than 100000.
+Is it too hard? No, I work it out in 10 minutes, and my program contains less than 25 lines.
+输入
+The input contains several test cases. Each test case consists of two positive integers A and B. The length of A will not exceed 1000, and B will be smaller than 100000. Process to the end of file.
+输出
+For each test case, you have to ouput the result of A mod B.
+样例输入
+2 3 
+12 7 
+152455856554521 3250
+样例输出
+2 
+5 
+1521
+提示
+
+[提交][状态][讨论版]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

@@ -1,0 +1,43 @@
+1207: 漂亮菱形
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 44  Solved: 4
+[Submit][Status][Web Board]
+Description
+
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+上面的菱形漂亮吗？ 现给出菱形的高度，要求你打印出相应高度的菱形，比如上面的菱形高度为7。
+Input
+
+测试数据包括多行，每行1个整数h，为菱形的高度。 输入以0结束。
+Output
+
+输入对应的菱形。
+Sample Input
+1 7 0
+Sample Output
+
+*
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+HINT
+
+Source
+
+C语言基础练习
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin

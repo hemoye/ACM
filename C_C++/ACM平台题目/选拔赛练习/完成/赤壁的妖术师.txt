@@ -1,0 +1,62 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem T: 赤壁的妖术师
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 72  Solved: 25
+[Submit][Status][Web Board]
+Description
+
+
+
+
+赤壁之战中的周瑜被称为赤壁的火神，请问你又知不知道赤壁的妖术师呢？
+
+
+
+无错就是神诸葛亮，三国杀中是这么形容的，究竟有多妖？
+
+
+
+因为他已经计算好风向，风速，就等周瑜放火了，他根据每个火种有4秒自燃时间，从而推算出具体的火种数目，由于风速稳定，每个火种从点燃开始的第4秒就可以开始蔓延出2个火种，并且以后的每一秒都会蔓延出2个火种。
+
+
+
+要求编程对于输入的秒数n , (从第一秒开始周瑜燃点了第一个火种),求出n秒后有多少个火种了？
+
+
+假设周瑜只放一次火种，期间火种不会熄灭。
+
+Input
+
+一个整数sum (sum < 100)，表示输入的测试数据总数。
+
+接着sum行，每行一个整数n，表示n（n<101）秒。
+
+Output
+
+输出n秒后的火种数，由于数量太大，神诸葛只想知道最后的6位数字。
+
+对于每一组测试数据输出首先输出"Case #: "，没有双引号，#为测试数据的组数,接着结果，每组结果占一行。
+
+Sample Input
+
+4
+1
+5
+7
+13
+Sample Output
+
+Case 1: 1
+Case 2: 5
+Case 3: 13
+Case 4: 309
+HINT
+
+开始周瑜只点燃一个火种，到了第4秒一共就有3个火种了，第5秒共有5个...
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

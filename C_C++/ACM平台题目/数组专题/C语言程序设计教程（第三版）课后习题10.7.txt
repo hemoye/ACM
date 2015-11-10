@@ -1,0 +1,30 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem Q: C语言程序设计教程（第三版）课后习题10.7
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 37  Solved: 22
+[Submit][Status][Web Board]
+Description
+
+有一字符串，包含n个字符。写一函数，将此字符串中从第m个字符开始的全部字符复制成为另一个字符串。
+Input
+
+数字n 一行字符串 数字m
+Output
+
+从m开始的子串
+Sample Input
+
+6
+abcdef
+3
+Sample Output
+
+cdef
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

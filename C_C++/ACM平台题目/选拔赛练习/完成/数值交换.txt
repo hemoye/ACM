@@ -1,0 +1,38 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem A: 数值交换
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 425  Solved: 157
+[Submit][Status][Web Board]
+Description
+
+要求交换2个整形数据，要求使用函数实现，函数原型：
+
+void Exchange(int *a, int *b);
+
+Input
+
+一个整数sum,表示测试数据的组数，接着sum行，每行2个整数，整数之间用空格分隔。
+
+Output
+
+对于每组测试结果，首先输出"Case #: ",#表示第几组测试结果，接着输出交换后的结果，2个数之间用空格分隔，每组测试结果占一行。
+
+Sample Input
+
+3
+1 2
+99 0
+2 5
+Sample Output
+
+Case 1: 2 1
+Case 2: 0 99
+Case 3: 5 2
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

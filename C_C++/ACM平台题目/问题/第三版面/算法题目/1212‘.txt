@@ -1,0 +1,25 @@
+1212: 等值数目
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 44  Solved: 16
+[Submit][Status][Web Board]
+Description
+已知两个整数数组f[]和g[]，它们的元素都已经从小到大排列。例如f[]中可能有1，2，2，3，3，g[]中有1，2，2，2，3。 请写一个程序，算出这两个数组彼此之间有多少组相同的数据。就以上例而言: f[0]于g[0]是第一组； f[1]于g[1]是第二组； f[2]于g[2]是第三组； f[3]于g[4]是第四组。
+Input
+第一行为两个整数m, n(1≤m, n≤1000)，分别代表数组f[], g[]的长度。 第二行有m个元素，为数组f[]。 第三行有n个元素，为数组g[]。
+Output
+输出等值数目。
+Sample Input
+5 5 1 2 2 2 3 1 2 2 3 3
+Sample Output
+4
+HINT
+
+你能想出O(n+m)的算法吗?^_^
+加油!
+Source
+
+吉首大学软件服务外包学院
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin

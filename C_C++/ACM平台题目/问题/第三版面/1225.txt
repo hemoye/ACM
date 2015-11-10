@@ -1,0 +1,23 @@
+1225: 五猴分桃
+Time Limit: 1000 Sec  Memory Limit: 128 MB
+Submit: 32  Solved: 30
+[Submit][Status][Web Board]
+Description
+
+五只猴子一起摘了一堆桃子,因为太累了,它们商量决定,先睡一觉再分.一会其中的一只猴子来了,它见别的猴子没来,便将这堆桃子平均分成5份 ,结果多了一个,就将多的这个吃了,并拿走其中的一份.一会儿,第2只猴子来了,他不知道已经有一个同伴来过,还以为自己是第一个到的呢,于是将地上的桃子堆起来,再一次平均分成5份,发现也多了一个,同样吃了这1个,并拿走其中一份.接着来的第3,第4,第5只猴子都是这样做的.......,
+根据上面的条件,问这5只猴子至少摘了多少个桃子?第5只猴子走后还剩下多少个桃子?
+
+Input
+Output
+Sample Input
+Sample Output
+HINT
+
+Source
+
+吉首大学软件服务外包学院
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM

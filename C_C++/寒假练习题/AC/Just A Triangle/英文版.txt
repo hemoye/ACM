@@ -1,0 +1,38 @@
+Just A Triangle
+
+Time Limit : 2000/1000ms (Java/Other)   Memory Limit : 32768/32768K (Java/Other)
+Total Submission(s) : 0   Accepted Submission(s) : 0
+Problem Description
+  This is an easy problem, just for you to warm up.
+  Give you three edges of a triangle. Can you tell me which kind of triangle it stands for?
+If it’s a right triangle(直角三角形), please output “good”. If it’s a isosceles triangle(等腰三角形), please output “perfect”. Otherwise, please output “just a triangle”. You may suppose the input is legal.
+ 
+
+Input
+The first line contains an integer t means the number of test cases.
+The each case contains three integers a, b, c in a line which stands for the length of the three edges.
+(0 <a, b, c < 300).
+ 
+
+Output
+For each case, output the answer in one line.
+ 
+
+Sample Input
+4
+3 4 5
+2 2 3 
+1 4 4
+4 6 3
+ 
+
+Sample Output
+good
+perfect
+perfect
+just a triangle
+ 
+
+Source
+HDU 2009-11 Programming Contest
+ 

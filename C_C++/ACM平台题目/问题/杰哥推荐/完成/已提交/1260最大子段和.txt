@@ -1,0 +1,26 @@
+1260最大子段和
+Time Limit: 1 Sec  Memory Limit: 1 MB
+Submit: 26  Solved: 16
+[Submit][Status][Web Board]
+Description
+
+给定n个整数组成的序列，找出最大的连续子段和，当所有整数均为负整数时，最大子段和为0
+Input
+
+输入n
+
+输入n个整数
+Output
+
+最大子段和
+Sample Input
+6 
+-2 11 -4 13 -5 -2
+Sample Output
+20
+HINT
+
+Source
+
+吉首大学软件服务外包学院
+[Submit][Status][Web Board]

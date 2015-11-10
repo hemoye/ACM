@@ -1,0 +1,29 @@
+1208: Least Common Multiple
+Time Limit: 1 Sec  Memory Limit: 64 MB
+Submit: 7  Solved: 2
+[Submit][Status][Web Board]
+Description
+求n个数的最小公倍数。
+Input
+输入包含多个测试实例，每个测试实例的开始是一个正整数n，然后是n个正整数。
+Output
+为每组测试数据输出它们的最小公倍数，每个测试实例的输出占一行。你可以假设最后的输出是一个32位的整数。
+Sample Input!
+
+2 4 6
+3 2 5 7
+
+Sample Output
+
+12
+70
+
+HINT
+
+Source
+
+C语言基础练习
+[Submit][Status][Web Board]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin

@@ -1,0 +1,91 @@
+jwk0403 我的主页帐号设置退出举人　三级|私信|我的百科我的贡献草稿箱我的任务为我推荐|百度首页 新闻网页贴吧知道音乐图片视频地图百科文库
+    帮助 首页 自然 文化 地理 历史 生活 社会 艺术 人物 经济 科技 体育 图片 数字博物馆 核心用户 百科商城 塑化剂到底有多可怕！？
+memset
+求助编辑百科名片将s所指向的某一块内存中的每个字节的内容全部设置为ch指定的ASCII值， 块的大小由第三个参数指定，这个函数通常为新申请的内存做初始化工作， 其返回值为指向S的指针。 
+
+
+目录
+
+需要的头文件
+函数原型函数介绍
+常见错误
+常见问题
+程序例
+memset函数详细说明
+展开需要的头文件 
+函数原型 函数介绍 
+常见错误 
+常见问题
+程序例 
+memset函数详细说明
+展开编辑本段需要的头文件　　在C中 <string.h> 　　在C++中　<cstring>编辑本段函数原型函数介绍
+　　void *memset(void *s,int ch,size_t n); 　　函数解释：将s中前n个字节用ch替换并返回s； 　　memset：作用是在一段内存块中填充某个给定的值，它是对较大的结构体或数组进行清零操作的一种最快方法[1]。
+常见错误
+　　第一： 搞反了ch 和 n的位置. 　　一定要记住 如果要把一个char a[20]清零，一定是 memset(a,0,20） 　　而不是 memset(a,20,0) 　　第二： 过度使用memset，我想这些程序员可能有某种心理阴影，他们惧怕未经初始化的内存，所以他们会写出这样的代码： 　　char buffer[20]; 　　memset(buffer,0,sizeof((char)*20））； 　　strcpy(buffer,"123"); 　　这里的memset是多余的. 因为这块内存马上就被覆盖了，清零没有意义. 　　第三： 其实这个错误严格来讲不能算用错memset，但是它经常在使用memset的场合出现 　　int some_func(struct something *a){ 　　… 　　… 　　memset(a,0,sizeof(a)); 　　… 　　} 　　这里错误的原因是VC函数传参过程中的指针降级，导致sizeof(a)，返回的是一个 something* 指针类型大小的的字节数，如果是32位，就是4字节。
+常见问题
+　　问：为何要用memset置零?memset(&Address,0,sizeof(Address））；经常看到这样的用法，其实不用的话，分配数据的时候，剩余的空间也会置零的。 　　答：1.如果不清空，可能会在测试当中出现野值。你做下面的试验看看结果() 　　char buf[5]； 　　CString str,str1； 　　//memset(buf,0,sizeof(buf））； 　　for(int i = 0；i<5；i++) 　　{ 　　str.Format（“%d “，buf[i]）； 　　str1 +=str ； 　　} 　　TRACE（“%s\r \n“，str1）； 　　⒉其实不然！特别是对于字符指针类型的，剩余的部分通常是不会为0的，不妨作一个试验，定义一个字符数组，并输入一串字符，如果不用memset实现清零，使用MessageBox显示出来就会有乱码（0表示NULL，如果有，就默认字符结束，不会输出后面的乱码） 　　问： 　　如下demo是可以的，能把数组中的元素值都设置成字符1， 　　#include <iostream> 　　#include <cstring> 　　using namespace std; 　　int main() 　　{ 　　char a[5]; 　　memset(a,'1',5）； 　　for(int i = 0;i < 5;i++) 　　cout<<a[i]<<" "; 　　system("pause"); 　　return 0; 　　} 　　而，如下程序想把数组中的元素值设置成1，却是不可行的 　　#include <iostream> 　　#include <cstring> 　　using namespace std; 　　int main() 　　{ 　　int a[5]; 　　memset(a,1,5）；//如果这里改成memset(a,1,5 *sizeof(int））也不可以，因为memset按字节赋值。 　　for(int i = 0;i < 5;i++) 　　cout<<a[i]<<" "; 　　system("pause"); 　　return 0; 　　} 　　问题是： 　　1，第一个程序为什么可以，而第二个不行， 　　2，不想要用for，或是while循环来初始化int a[5]；能做到吗？（有没有一个像memset()这样的函数初始化） 　　答： 　　⒈因为第一个程序的 数组a是字符型的，字符型占据内存大小是1Byte，而memset函数也是以字节为单位进行赋值的，所以你输出没有问题。而第二个程序a是整型的，使用 memset还是按字节赋值，这样赋值完以后，每个数组元素的值实际上是0x01010101即十进制的16843009。你看看你输出结果是否这样？ 　　⒉如果用memset(a,1,20）； 　　就是对a指向的内存的20个字节进行赋值，每个都用ASCⅡ为1的字符去填充，转为二进制后，1就是00000001，占一个字节。一个INT元素是4 字节，合一起就是00000001000000010000000100000001，就等于16843009，就完成了对一个INT元素的赋值了编辑本段程序例　　#include <string.h> 　　#include <stdio.h> 　　#include <memory.h> 　　  memset函数
+int main(void) 　　{ 　　char buffer[] = "Hello world\n"; 　　printf("Buffer before memset: %s\n",buffer); 　　memset(buffer,'*',strlen(buffer)); 　　printf("Buffer after memset: %s\n",buffer); 　　return 0; 　　} 　　输出结果： 　　Buffer before memset: Hello world 　　Buffer after memset: ************ 　　编译平台： 　　Microsoft Visual C++ 6.0 　　也不一定就是把内容全部设置为ch指定的ASCⅡ值，而且该处的ch可为int或者其他类型，并不一定要是char类型。例如下面这样： 　　int array[5] = {1,4,3,5,2}; 　　for(int i = 0; i < 5; i++) 　　cout<<array[i]<<" "; 　　cout<<endl; 　　memset(array,0,5*sizeof(int)); 　　for(int k = 0; k < 5; k++) 　　cout<<array[k]<<" "; 　　cout<<endl; 　　输出的结果就是： 　　1 4 3 5 2 　　0 0 0 0 0 　　后面的表大小的参数是以字节为单位，所以，对于int或其他的就并不是都乘默认的1（字符型）了。而且不同的机器上int的大小也可能不同，所以最好用sizeof()。 　　 　　要注意的是，memset是对字节进行操作， 　　所以上述程序如果改为 　　int array[5] = {1,4,3,5,2}; 　　for(int i = 0; i < 5; i++) 　　cout<<array[i]<<" "; 　　cout<<endl; 　　memset(array,1,5*sizeof(int));// 注意 这里与上面的程序不同 　　for(int k = 0; k < 5; k++) 　　cout<<array[k]<<" "; 　　cout<<endl; 　　输出的结果就是： 　　1 4 3 5 2 　　16843009 16843009 16843009 16843009 16843009 　　为什么呢？ 　　因为memset是以字节为单位就是对array指向的内存的4个字节进行赋值，每个都用ASCⅡ为1的字符去填充，转为二进制后，1就是00000001，占一个字节。一个INT元素是4字节，合一起就是00000001000000010000000100000001，就等于16843009，就完成了对一个INT元素的赋值了。 　　所以用memset对非字符型数组赋初值是不可取的！ 　　例如有一个结构体Some x，可以这样清零： 　　memset(&x,0,sizeof(Some)); 　　如果是一个结构体的数组Some x[10]，可以这样： 　　memset(x,0,sizeof(Some)*10）；编辑本段memset函数详细说明　　1。void *memset(void *s,int c,size_tn) 　　总的作用：将已开辟内存空间 s 的首 n 个字节的值设为值 c。 　　2。例子 　　main(){ 　　char *s="Golden Global View"; 　　clrscr(); 　　memset(s,'G',6）；//貌似这里有点问题// 单步运行到这里会提示内存访问冲突//肯定会访问冲突，s指向的是不可写空间。 　　printf("%s",s); 　　getchar(); 　　return 0; 　　}　 　　【以上例子出现内存访问冲突应该是因为s被当做常量放入程序存储空间，如果修改为 　　char s[]="Golden Global View";则没有问题了。】 　　【应该是没有问题的，字符串指针一样可以，并不是只读内存，可以正常运行】 　　3。memset() 函数常用于内存空间初始化。如： 　　char str[100]; 　　memset(str,0,100）； 　　4。memset()的深刻内涵：用来对一段内存空间全部设置为某个字符，一般用在对定义的字符串进行初始化为‘memset(a,'\0',sizeof(a)); 　　memcpy用来做内存拷贝，你可以拿它拷贝任何数据类型的对象，可以指定拷贝的数据长度；例： 　　char a[100],b[50]; 　　memcpy(b,a,sizeof(b)); //注意如用sizeof(a)，会造成b的内存地址溢出。 　　strcpy就只能拷贝字符串了，它遇到'\0'就结束拷贝；例： 　　char a[100],b[50]; 　　strcpy(a,b); 　　如用strcpy(b,a），要注意a中的字符串长度（第一个‘\0’之前）是否超过50位，如超过，则会造成b的内存地址溢出。 　　⒌补充：某人的一点心得 　　memset可以方便的清空一个结构类型的变量或数组。 　　如： 　　struct sample_struct 　　{ 　　char csName[16]; 　　int iSeq; 　　int iType; 　　}; 　　对于变量 　　struct sample_strcut stTest; 　　一般情况下，清空stTest的方法： 　　stTest.csName[0]={'\0'}; 　　stTest.iSeq=0; 　　stTest.iType=0; 　　用memset就非常方便： 　　memset(&stTest,0,sizeof(struct sample_struct)); 　　如果是数组： 　　struct sample_struct TEST[10]; 　　则 　　memset(TEST,0,sizeof(struct sample_struct)*10）； 　　另外： 　　如果结构体中有数组的话还是需要对数组单独进行初始化处理的。
+参考资料 
+1．  memset API reference  ．www.cplusplus.com [引用日期2012-08-16] ．
+扩展阅读： 
+1 
+http://www.azure.net.ru/read.php/137.htm 
+开放分类： 
+C语言函数 计算机技术 编程 技术 c语言函数 
+
+
+我来完善 “memset”相关词条： 
+
+内存 
+百度百科中的词条正文与判断内容均由用户提供，不代表百度百科立场。如果您需要解决具体问题（如法律、医学等领域），建议您咨询相关领域专业人士。
+本词条对我有帮助添加到搜藏 分享到:更多
+合作编辑者 
+韩雨芹de影迷 ， CathaieseAndy ， yangke19941112 ， goodlucklp ， 迷糊的大爷 ， qq____open ， yh880 ， 太阳神 ， w_ou ， juntaoliu ， 更多 
+如果您认为本词条还需进一步完善，百科欢迎您也来参与 编辑词条 在开始编辑前，您还可以先学习如何编辑词条
+如想投诉，请到百度百科投诉中心；如想提出意见、建议，请到百度百科吧。
+jwk0403
+00
+
+去兑换>>您尚无道具可使用
+成长任务词条工厂学学词条如何拼装 +50
+现在去完成>>完成0%日常任务本月累计点亮0天。今日笑脸还没点亮哦。
+名符图实：参加任务，拿点亮任务日历获得财富值热词推送编辑热词可获得额外经验值
+词条动态进入我的百科您目前的等级是3级
+您目前的经验值是1197点
+您还需3点经验值即可升为4级
+
+
+词条统计
+浏览次数：约 529975次
+编辑次数：64次 历史版本
+最近更新：昨天
+创建者：kakatakaka
+更多贡献光荣榜
+辛勤贡献者： 
+ yangke19941112    版本 
+ mafan0826    版本 
+ huaxiangsluo    版本 
+ yangbai86    版本 
+ yayu_myself    版本 
+
+最新动态
+百科质量委员会招募：
+
+百科消息：
+百科android客户端升级1.1版
+上传旅行照片赢佳能5D2！
+百科动漫分类达人招募啦
+贴吧热图大全,不好看我乱说?
+塑化剂，无处不在的环境杀手
+百科航海日志-船长分享成长点滴
+
+
+? 2012 Baidu 使用百度前必读 | 百科协议 | 百度百科合作平台
+memset需要的头文件函数原型函数介绍常见错误常见问题程序例memset函数详细说明
+
+ 退出 
+若有错误，请划词选中错误内容并按提示质疑，为词条的质量提升做出贡献。
+
+展开收起
+若您对这些内容有可信的参考资料，并掌握百科编辑技巧，欢迎你直接编辑词条。
+参与质疑×

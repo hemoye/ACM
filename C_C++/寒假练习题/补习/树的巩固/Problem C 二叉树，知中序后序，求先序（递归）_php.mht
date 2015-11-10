@@ -1,0 +1,263 @@
+From: =?gb2312?B?08kgV2luZG93cyBJbnRlcm5ldCBFeHBsb3JlciA5ILGjtOY=?=
+Subject: =?gb2312?B?UHJvYmxlbSBDOiC2/rLmyvejrNaq1tDQ8rrz0PKjrMfzz8jQ8qOotd256aOp?=
+Date: Mon, 25 Feb 2013 15:56:05 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_000A_01CE1370.9E792F10"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+这是 MIME 格式的多方邮件。
+
+------=_NextPart_000_000A_01CE1370.9E792F10
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://10.0.0.7:8080/JudgeOnline/problem.php?cid=1066&pid=2
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Problem C: =
+=E4=BA=8C=E5=8F=89=E6=A0=91=EF=BC=8C=E7=9F=A5=E4=B8=AD=E5=BA=8F=E5=90=8E=E5=
+=BA=8F=EF=BC=8C=E6=B1=82=E5=85=88=E5=BA=8F=EF=BC=88=E9=80=92=E5=BD=92=EF=BC=
+=89</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" =
+http-equiv=3DContent-Type><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/include/hoj.css">
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16464"></HEAD>
+<BODY>
+<TABLE class=3Dtoprow width=3D"100%">
+  <TBODY>
+  <TR align=3Dcenter>
+    <TD width=3D"15%"><A class=3Dhd=20
+      href=3D"http://10.0.0.7:8080/JudgeOnline/">Home</A>=20
+    <TD width=3D"15%"><A class=3Dhd=20
+      href=3D"http://10.0.0.7:8080/JudgeOnline/bbs.php?cid=3D1066">Web =
+Board</A>=20
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://10.0.0.7:8080/JudgeOnline/contest.php?cid=3D1066">ProblemS=
+et</A>=20
+
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://10.0.0.7:8080/JudgeOnline/contestrank.php?cid=3D1066">Stan=
+ding</A>=20
+
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://10.0.0.7:8080/JudgeOnline/status.php?cid=3D1066">Status</A=
+>=20
+    <TD width=3D"15%"><A class=3Dhd=20
+      =
+href=3D"http://10.0.0.7:8080/JudgeOnline/conteststatistics.php?cid=3D1066=
+">Statistics</A>=20
+    </TD></TR></TBODY></TABLE>
+<DIV id=3Dbroadcast>
+<MARQUEE id=3Dbroadcast onmouseover=3Dthis.stop() =
+onmouseout=3Dthis.start()=20
+direction=3Dup scrollAmount=3D1 scrollDelay=3D250 ;><SPAN=20
+style=3D"COLOR: rgb(32,178,170)">None. </SPAN></MARQUEE></DIV><!--end =
+broadcast-->
+<DIV id=3Dmain>
+<CENTER>
+<H2>Problem C: =
+=E4=BA=8C=E5=8F=89=E6=A0=91=EF=BC=8C=E7=9F=A5=E4=B8=AD=E5=BA=8F=E5=90=8E=E5=
+=BA=8F=EF=BC=8C=E6=B1=82=E5=85=88=E5=BA=8F=EF=BC=88=E9=80=92=E5=BD=92=EF=BC=
+=89</H2><SPAN class=3Dgreen>Time Limit: </SPAN>100=20
+Sec&nbsp;&nbsp;<SPAN class=3Dgreen>Memory Limit: </SPAN>128 MB<BR><SPAN=20
+class=3Dgreen>Submit: </SPAN>2&nbsp;&nbsp;<SPAN class=3Dgreen>Solved:=20
+</SPAN>1<BR>[<A=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/submitpage.php?cid=3D1066&amp;pi=
+d=3D2&amp;langmask=3D0">Submit</A>][<A=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/problemstatus.php?id=3D1236">Sta=
+tus</A>][<A=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/bbs.php?pid=3D1236&amp;cid=3D106=
+6">Web=20
+Board</A>]</CENTER>
+<H2>Description</H2>
+<DIV class=3Dcontent>
+<P>=E5=B7=B2=E7=9F=A5=E4=BA=8C=E5=8F=89=E6=A0=91=E7=9A=84=E4=B8=AD=E5=BA=8F=
+=E3=80=81=E5=90=8E=E5=BA=8F=EF=BC=8C=E5=BB=BA=E6=A0=91=E6=B1=82=E5=85=88=E5=
+=BA=8F=E3=80=82</P></DIV>
+<H2>Input</H2>
+<DIV class=3Dcontent>
+<P>=E4=B8=AD=E5=BA=8F=E5=BA=8F=E5=88=97</P>
+<P>=E5=90=8E=E5=BA=8F=E5=BA=8F=E5=88=97</P></DIV>
+<H2>Output</H2>
+<DIV class=3Dcontent>
+<P>=E5=85=88=E5=BA=8F=E5=BA=8F=E5=88=97</P></DIV>
+<H2>Sample Input</H2>
+<DIV class=3Dcontent><SPAN class=3Dsampledata><PRE>d g b a e c f
+g d b e f c a</PRE></SPAN></DIV>
+<H2>Sample Output</H2>
+<DIV class=3Dcontent><SPAN class=3Dsampledata><PRE>a b d g c e =
+f</PRE></SPAN></DIV>
+<H2>HINT</H2>
+<DIV class=3Dcontent>
+<P></P></DIV>
+<CENTER>[<A=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/submitpage.php?cid=3D1066&amp;pi=
+d=3D2&amp;langmask=3D0">Submit</A>][<A=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/problemstatus.php?id=3D1236">Sta=
+tus</A>][<A=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/bbs.php?pid=3D1236&amp;cid=3D106=
+6">Web=20
+Board</A>]</CENTER>
+<DIV id=3Dfoot><!--<br>=0A=
+=0A=
+<a href=3D"./"><span class=3Dred>HOME</span></a>=0A=
+<a href=3D"javascript:history.go(-1)"><span class=3Dred>Back</span></a>=0A=
+=0A=
+<hr>=0A=
+-->
+<CENTER>
+<P><A =
+href=3D"http://10.0.0.7:8080/JudgeOnline/setlang.php?lang=3Dcn">=E4=B8=AD=
+=E6=96=87</A>&nbsp;=20
+<A =
+href=3D"http://10.0.0.7:8080/JudgeOnline/setlang.php?lang=3Den">English</=
+A>&nbsp;=20
+<BR>=E8=BD=AF=E4=BB=B6=E5=AD=A6=E9=99=A2 2010-2011 <A=20
+href=3D"http://10.0.0.7:8080/JudgeOnline/">JiShouUniversity</A>=20
+<BR></P></CENTER></DIV><!--end foot--></DIV><!--end main--><!--not =
+cached--></BODY></HTML>
+
+------=_NextPart_000_000A_01CE1370.9E792F10
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://10.0.0.7:8080/JudgeOnline/include/hoj.css
+
+A {
+	COLOR: #2e3436; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: black; TEXT-DECORATION: underline
+}
+H2 {
+	COLOR: #2e3436
+}
+.toprow {
+	BACKGROUND-COLOR: #2e3436; WHITE-SPACE: nowrap; COLOR: #2e3436; =
+FONT-WEIGHT: bold
+}
+.toprow A {
+	MARGIN: 15px; FONT-FAMILY: Arial; COLOR: #ffffff; FONT-SIZE: 18px; =
+FONT-WEIGHT: bold
+}
+.toprow A:hover {
+	MARGIN: 15px; FONT-FAMILY: Arial; COLOR: orange; FONT-SIZE: 18px; =
+FONT-WEIGHT: bold
+}
+.oddrow {
+	BACKGROUND-COLOR: #e5ecf9; WHITE-SPACE: nowrap
+}
+.evenrow {
+	BACKGROUND-COLOR: #ffffff; WHITE-SPACE: nowrap
+}
+BODY {
+	BACKGROUND-IMAGE: url(../image/background.jpg); BACKGROUND-COLOR: =
+#dcdcdc
+}
+.hd {
+	COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.time {
+	TEXT-ALIGN: right
+}
+.ip {
+	TEXT-ALIGN: right; PADDING-RIGHT: 5px
+}
+TR.userinfo {
+	BACKGROUND-COLOR: #fffff0; FONT-SIZE: 16px
+}
+SPAN.yes {
+	COLOR: #2e3436; FONT-WEIGHT: bolder
+}
+SPAN.no {
+	COLOR: #2e3436; FONT-WEIGHT: bolder
+}
+.green {
+	COLOR: #ef771a
+}
+.red {
+	COLOR: #2e3436
+}
+.blue {
+	COLOR: #2e3436
+}
+.gray {
+	COLOR: #2e3436
+}
+.orange {
+	COLOR: #2e3436
+}
+.navy {
+	COLOR: #2e3436
+}
+SPAN.exadmin {
+	COLOR: #2e3436
+}
+#center {
+	TEXT-ALIGN: center
+}
+DIV.content {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 20px; =
+PADDING-RIGHT: 20px; FONT-FAMILY: Times New Roman; HEIGHT: auto; =
+FONT-SIZE: 14px; PADDING-TOP: 0px
+}
+.sampledata {
+	FONT-FAMILY: Monospace; WHITE-SPACE: pre; FONT-SIZE: 18px
+}
+#head {
+	Z-INDEX: 1; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+53px; VISIBILITY: visible; TOP: 0px; LEFT: 0px
+}
+#menu {
+	Z-INDEX: 2; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+32px; VISIBILITY: visible; FONT-WEIGHT: bold; TOP: 63px; LEFT: 0px
+}
+.menu_item {
+	DISPLAY: inline
+}
+#profile {
+	Z-INDEX: 3; POSITION: absolute; TEXT-ALIGN: right; WIDTH: 100%; HEIGHT: =
+32px; VISIBILITY: visible; FONT-WEIGHT: bold; TOP: 0px; LEFT: 0px
+}
+#broadcast {
+	Z-INDEX: 4; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+50px; VISIBILITY: visible; COLOR: red; TOP: 105px; LEFT: 0px
+}
+#main {
+	Z-INDEX: 6; POSITION: static; WIDTH: 100%; HEIGHT: auto; TOP: 209px; =
+LEFT: 0px
+}
+#foot {
+	Z-INDEX: 7; POSITION: static; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: =
+133px; VISIBILITY: visible; TOP: 520px; LEFT: 0px; valign: bottom
+}
+#logo {
+	POSITION: static; VERTICAL-ALIGN: middle
+}
+#showmenu {
+=09
+}
+#menubox {
+	BORDER-BOTTOM: #106086 1px solid; POSITION: absolute; FILTER: =
+alpha(opacity=3D90); BORDER-LEFT: #106086 1px solid; PADDING-BOTTOM: =
+8px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 6px; WIDTH: 160px; =
+PADDING-RIGHT: 6px; DISPLAY: none; BORDER-TOP: #106086 1px solid; =
+BORDER-RIGHT: #106086 1px solid; PADDING-TOP: 8px; TOP: 0px; LEFT: 0px; =
+opacity: 0.90
+}
+#menubox A {
+	BORDER-BOTTOM: #ace3f8 1px dashed; LINE-HEIGHT: 28px; PADDING-LEFT: =
+6px; WIDTH: 148px; PADDING-RIGHT: 6px; DISPLAY: block; HEIGHT: 28px; =
+COLOR: #106086
+}
+#menubox A:hover {
+	BACKGROUND-COLOR: #084673; COLOR: #ffffff; TEXT-DECORATION: none
+}
+
+------=_NextPart_000_000A_01CE1370.9E792F10--

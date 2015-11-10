@@ -1,0 +1,43 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem D: 水果忍者
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 91  Solved: 23
+[Submit][Status][Web Board]
+Description
+老白最近迷上了水果忍者，他是一个很有条理的人，他发现按照如下方式可以得到更高的分数：
+
+将手放在屏幕的A点，然后移动到B点，然后移动到C点，确定A点最低，B点最高，C点在AB之间，我们给出一串数据，请聪明的你看看有多少个符合要求的ABC组合。
+Input
+第一行输入一个整数T（T<=10）表示有几组测试数据：
+对于每组测试数据，第一行输入一个整数n表示有n（n<=100,0000）个数据，接下来一行有n个数据n1,n2,n3.......(n[i]<=100,0000).
+
+Output
+对于每组测试数据，输出有多少种组合方式可以让老白玩水果忍者；
+每组测试数据的前面都加上Case #i:
+
+Sample Input
+
+3
+1 
+1 
+3 
+1 2 4 
+7 
+1 2 3 3 4 4 5 
+Sample Output
+
+Case #1: 0 
+Case #2: 1
+Case #3: 10
+HINT
+
+必须使用函数：
+void function(int* str,int *n)
+str 表示数组，n表示数组的长度；
+得到有效的点的个数，将有效的点的个数赋值给n；
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

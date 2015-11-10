@@ -1,0 +1,27 @@
+主页 	讨论版 	问题 	名次 	状态 	统计
+问题 I: 大数模运算(JSU-ZJJ)
+时间限制: 5 Sec  内存限制: 64 MB
+提交: 10  解决: 2
+[提交][状态][讨论版]
+题目描述
+给定任意位数长度的两个整数，求第一个整数对第二整数的模数。
+输入
+
+每个测试用例含有两个整数，代表两个任意位数长度的整数A，B。
+输出
+计算出这两个任意位数长度的整数的模数。
+样例输入
+50000000000 3 
+12 6
+样例输出
+2 
+0
+提示
+
+类似与C语言的%运算
+[提交][状态][讨论版]
+
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

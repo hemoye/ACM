@@ -1,0 +1,31 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem M: QQ牧场
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 471  Solved: 118
+[Submit][Status][Web Board]
+Description
+大家都玩过QQ牧场吧，现在QW想知道自己的牧场可以收获多少金币，但是她很懒，不想算，聪明的你可以帮帮她么？
+Input
+?首先输入一个整数n，表示测试数据的组数，接着输入k，k表示输入有多少种东西可以收获（假设没有动物可以抓去生产），然后输入每种东西名称、可收获数量以及价格；
+Output
+首先输出一个“Case #: ”,#表示第几组测试结果，接着输出动物带来的金币收入的总数,每组数据结果占一行；
+
+Sample Input
+
+1
+4
+Cow 12 100
+Chook 10 120
+Monkey 12 200
+Dog 9 70
+Sample Output
+
+Case 1: 5430
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

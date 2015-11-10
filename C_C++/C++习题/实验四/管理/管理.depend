@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1368624730 source:i:\c++习题\实验四\管理\main.cpp
+	<cstdio>
+	<iostream>
+	"class.cpp"
+
+1368624766 i:\c++习题\实验四\管理\class.cpp
+	<cstdio>
+	<cstring>
+	<algorithm>
+

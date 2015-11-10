@@ -1,0 +1,38 @@
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem P: 二进制转十六进制
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 32  Solved: 3
+[Submit][Status][Web Board]
+Description
+
+给定一个二进制表示的非负整数，将其转换为十六进制数。
+要求使用函数编写程序：函数原型如下：
+void convert( char *input, char *output);
+变量input为读入的二进制字符串，变量output为函数中要输出的十六进制字符串；
+Input
+
+输入数据有多组，第一行为数据的组数T，接下来有T组数据。
+每组数据占一行，每行为一个二进制整数（不含多余的前导0），最多30位。 
+Output
+
+对于每组测试数据首先输出"Case #: ",#表示第几组测试数据，接着输出对应的十六进制数，字母用大写表示，每组测试结果占一行。
+Sample Input
+
+2 
+1111
+10100100
+Sample Output
+
+Case 1: F
+Case 2: A4
+HINT
+
+
+5 = '5' - '0';
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM

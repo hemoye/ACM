@@ -1,0 +1,44 @@
+
+Home	Web Board	ProblemSet	Standing	Status	Statistics
+Problem T: 找朋友（BOY or Girl?）
+
+Time Limit: 1 Sec  Memory Limit: 128 MB
+Submit: 7  Solved: 2
+[Submit][Status][Web Board]
+Description
+
+还记得我们童年的歌谣吗？找朋友啊找朋友，找到一个好朋友............
+现在呢？找的是男女朋友了，我们12级的童鞋们决定内部消化了。好吧！
+题目：输入有两行，字符串中不含有空格，第一行的输入为任意字符串（保证必含有“boyfriend”或“girlfriend”这两个字符之一），第二行的字符为“b”或”g“。
+如果第二行字符输入为“b”，则找出第一行中“girlfriend”这个字符串首字母的位置（首次出现）。
+如果第二行字符输入为“g”，则找出第一行中“boyfriend”这个字符串首字母的位置（首次出现）。
+Input
+
+输入数据由多个测试实例组成，每组测试数据含两个字符串，第一行的输入为任意字符串（其中一段内容必含有“boyfriend”或“girlfriend”这两个字符之一），第二行的字符串只能为‘b’或‘g’。（以EOF结束）
+Output
+
+对于每个测试实例，输出对应规则中首次查找到的位置。（每组输出记得换行哦！而不是得到一个新的空行。）
+每个输出占一行。
+Sample Input
+
+findaboyfriendok?
+g
+findagirlfriendok?
+b
+howboyfriendboyfriend
+g
+agirlfriendGG
+b
+Sample Output
+
+5
+5
+3
+1
+HINT
+
+[Submit][Status][Web Board]
+???  中文  ?????  English  ???	
+Anything about the Problems, Please Contact Admin:admin   
+All Copyright Reserved 2010-2011 HUSTOJ TEAM
+GPL2.0 2003-2012 HUSTOJ Project TEAM
